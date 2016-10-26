@@ -10,10 +10,14 @@ int main(int argc, char ** argv) {
 		cout << i << ": " << argv[i] << endl;
 	}
 
+	for (int i = 0; argv[i]; i++) {
+		cout << i << ": " << argv[i] << endl;
+	}
 
 	for (int i = 0; argv[i]; i++) {
 		cout << i << ": " << argv[i] << endl;
 	}
+
 	return 0;
 }
 
